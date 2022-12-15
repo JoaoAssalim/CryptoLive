@@ -47,7 +47,6 @@ export default function Home({navigation}) {
   
   });
 
-
   return (
     <LinearGradient colors={['#0233f7','#5073fe', '#75baff']} style={{height: '100%', width: '100%'}}>
       <SafeAreaView>
