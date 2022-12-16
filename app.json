@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "CryptoLive",
-    "slug": "CryptoLive",
+    "slug": "App",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#000000"
+      "backgroundColor": "#5073fe"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
