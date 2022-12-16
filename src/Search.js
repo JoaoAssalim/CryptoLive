@@ -44,7 +44,6 @@ export default function Home({navigation}) {
       justifyContent: 'center',
       fontFamily: 'Jost_900Black'
     }
-  
   });
 
   return (
