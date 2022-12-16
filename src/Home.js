@@ -4,12 +4,12 @@ import { useWebSocket } from "react-use-websocket/dist/lib/use-websocket";
 import { LinearGradient } from 'expo-linear-gradient';
 import {useState} from  "react";
 import {Text} from "react-native-elements";
-import {useFonts, Jost_800ExtraBold_Italic, Jost_600SemiBold, Jost_900Black} from "@expo-google-fonts/jost"
+import {useFonts, Jost_800ExtraBold_Italic, Jost_600SemiBold} from "@expo-google-fonts/jost"
 
 export default function Home({navigation}) {
 
   const [fontLoaded] = useFonts({
-    Jost_800ExtraBold_Italic, Jost_600SemiBold, Jost_900Black
+    Jost_800ExtraBold_Italic, Jost_600SemiBold
   })
   const [btc, setBtc] = useState({});
   const [eth, setEth] = useState({});
@@ -81,7 +81,7 @@ export default function Home({navigation}) {
       <SafeAreaView style={styles.container}>
 
         <View style={styles.title}>
-          <Text h1 style={{color: "#FFF", fontFamily: "Jost_800ExtraBold_Italic"}}>CryptoLive</Text>
+          <Text h1 style={{color: "#FFF", fontSize: 40, fontFamily: "Jost_800ExtraBold_Italic"}}>CryptoLive</Text>
         </View>
 
         <View style={styles.exibition}>
@@ -163,7 +163,7 @@ export default function Home({navigation}) {
             onPress={() => navigation.navigate("Search")}
             style={styles.findout}
             >
-            <Text style={{fontSize: 20, fontFamily: 'Jost_900Black'}}>Personalized Search</Text>
+            <Text style={{fontSize: 20, fontFamily: 'Jost_800ExtraBold_Italic'}}>Personalized Search</Text>
           </TouchableOpacity>
       </SafeAreaView>
     </LinearGradient>
