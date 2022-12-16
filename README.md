@@ -1,6 +1,8 @@
 <h1 align="center">
-  <img src="./assets/icon.png" width=300/><br>
-  <b>CryptoLive</b> 
+  <a href="https://mega.nz/file/h3YWmIwY#-9fTBVhDN8ygUNiG7yI2L2-VtdF4lJdTvlk1BzekBdU">
+    <img src="./assets/icon.png" width=300/><br>
+    <b>CryptoLive</b> 
+  </a>
 </h1>
 
 <p align="center">
