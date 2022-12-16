@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="./assets/icon.png" width=250/><br>
+  <img src="./assets/icon.png" width=300/><br>
   <b>CryptoLive</b> 
 </h1>
 
